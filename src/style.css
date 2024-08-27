@@ -1,0 +1,66 @@
+body {
+  background-color: #c3ceb8;
+}
+
+.container {
+}
+
+.tipApp {
+  display: flex;
+  flex-direction: row;
+  border: none;
+  border-radius: 10px;
+  max-width: 800px;
+  background-color: white;
+}
+
+.bill {
+  display: flex;
+  flex-direction: column;
+}
+
+.bill input {
+  width: 200px;
+}
+
+.bill button {
+  border-radius: 5px;
+  border: none;
+  background-color: #7d8b6d;
+  padding: 5px;
+  margin: 5px;
+  width: 100px;
+  height: 40px;
+  color: white;
+  cursor: pointer;
+}
+
+.bill button:hover {
+  background-color: #c3ceb8;
+}
+
+#tipPercentage {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+#custom {
+  border-radius: 5px;
+  border: none;
+  background-color: #7d8b6d;
+  padding: 5px;
+  margin: 5px;
+  width: 90px;
+  height: 30px;
+  color: white;
+  cursor: pointer;
+  text-align: center;
+}
+
+.calculator {
+  display: flex;
+  flex-direction: column;
+  background-color: #707e62;
+  color: white;
+  max-width: 300px;
+}
