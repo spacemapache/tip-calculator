@@ -10,8 +10,9 @@ body {
   flex-direction: row;
   border: none;
   border-radius: 10px;
-  max-width: 800px;
+  max-width: 700px;
   background-color: white;
+  padding: 20px;
 }
 
 .bill {
@@ -39,15 +40,21 @@ body {
   background-color: #c3ceb8;
 }
 
+#billInput,
+#peopleInput {
+  width: 250px;
+  height: 25px;
+}
+
 #tipPercentage {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
 
-#custom {
+#customInput {
   border-radius: 5px;
   border: none;
-  background-color: #7d8b6d;
+  background-color: #dfe2dc;
   padding: 5px;
   margin: 5px;
   width: 90px;
@@ -62,5 +69,14 @@ body {
   flex-direction: column;
   background-color: #707e62;
   color: white;
-  max-width: 300px;
+  padding: 20px;
+  margin-left: 50px;
+  border-radius: 5px;
+}
+
+#resetBtn {
+  width: 250px;
+  height: 25px;
+  border-radius: 5px;
+  border: none;
 }
