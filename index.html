@@ -15,11 +15,8 @@
           <input type="number" placeholder="$" id="billInput" />
           <h2>Select Tip %</h2>
           <div id="tipPercentage">
-            <button>5%</button>
-            <button>10%</button>
-            <button>15%</button>
-            <button>20%</button>
-            <button>25%</button>
+            <button id="15Btn">15%</button>
+            <button id="20Btn">20%</button>
             <input type="number" placeholder="Custom" id="customInput" />
           </div>
           <h2>Number of People</h2>
@@ -27,10 +24,10 @@
         </div>
         <div class="calculator">
           <h2>Tip Amount / person</h2>
-          <input id="amountPerson">$0.00</h1>
+          <h1 id="amountPerson">$0.00</h1>
           <h2>Total / person</h2>
-          <h1>$0.00</h1>
-          <button id="resetBtn">Reset</button>
+          <h1 id="totalPerson">$0.00</h1>
+          <button onclick="reset()" id="resetBtn">Reset</button>
         </div>
       </div>
     </div>
